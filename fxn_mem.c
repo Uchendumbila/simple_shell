@@ -61,7 +61,8 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 }
 
 /**
- * _reallocdp - Writing a fxn that reallocates a memory block of a double pointer.
+ * _reallocdp - Writing a fxn that reallocates a memory block 
+ * of a double pointer.
  * @ptr: double pointer to the memory previously allocated.
  * @old_size: size, in bytes, of the allocated space of ptr.
  * @new_size: new size, in bytes, of the new memory block.
